@@ -1,0 +1,30 @@
+header {
+    background: url('images/layout/back.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #FF2400;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #FF2400;
+    color: white;
+}
